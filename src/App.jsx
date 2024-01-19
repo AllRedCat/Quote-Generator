@@ -27,7 +27,6 @@ const App = () => {
   return (
     <div className="App">
       <div>
-        <h2>Citação:</h2>
         <p>{quote}</p>
         <p>- {author}</p>
       </div>
