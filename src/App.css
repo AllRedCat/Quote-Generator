@@ -4,3 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
+
+.App {
+  background-color: red;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.content {
+  background-color: greenyellow;
+  width: 500px;
+  height: 250px;display: flex;flex-direction: column; justify-content: space-between;
+}
+.quote{}
+.buttons {}

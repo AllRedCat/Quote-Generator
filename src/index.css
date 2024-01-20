@@ -12,24 +12,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  /* place-items: center; */
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
   min-height: 100vh;
+  background-image: url('assets/backgroundIMG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.App {
+  background-color: red;
+}
+
+@media (max-width: 420px) {
+  body {
+    min-width: 320px;
+  }
 }
