@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="content">
-        <div>
+        <div className='quote'>
           <p>{quote}</p>
           <p>- {author}</p>
         </div>

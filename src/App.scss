@@ -12,7 +12,7 @@ $light-pink: #F583A7;
 .App {
   background-color: red;
   width: 600px;
-  height: 400px;
+  // height: 400px;
   display: flex;
   place-content: center;
   place-items: center;
@@ -20,14 +20,22 @@ $light-pink: #F583A7;
 
 .content {
   background-color: greenyellow;
+  margin: 10px 0;
   width: 500px;
-  height: 250px;
+  height: 380px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 
+.quote {
+  background-color: violet;
+  width: 450px;
+}
+
 .buttons {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
