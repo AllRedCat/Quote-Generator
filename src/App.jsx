@@ -36,7 +36,7 @@ const App = () => {
           </div>
           <p>{quote}</p>
           <div className="divider"></div>
-          <p>- {author}</p>
+          <p className='author'>{author}</p>
         </div>
         <div className="buttons">
           <div>
@@ -44,7 +44,7 @@ const App = () => {
               <img src={XLogo} alt="X logo" width={30} />
             </a>
           </div>
-          <button onClick={handleNewQuote}>New Quote</button>
+          <button onClick={handleNewQuote} className='update-btn'>New Quote</button>
         </div>
       </div>
     </div>
