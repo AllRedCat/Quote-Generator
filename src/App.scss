@@ -14,8 +14,7 @@ $light-pink: #F583A7;
 }
 
 .App {
-  // background-color: red;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: (223, 219, 229, 0.50);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(3px);
   border-radius: 10px;
@@ -81,6 +80,10 @@ $light-pink: #F583A7;
 }
 
 @media (max-width: 320px) {
+  #root {
+    max-width: 320px;
+  }
+
   .App {
     width: 300px;
   }
@@ -91,5 +94,13 @@ $light-pink: #F583A7;
 
   .quote {
     width: 260px;
+    
+    p {
+      font-size: 26px;
+    }
+  
+    .author {
+      font-size: 20px;
+    }
   }
 }
