@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.scss';
-import XLogo from './assets/square-x-twitter.svg'
+import XLogo from './assets/square-x-twitter.svg';
+import Vector from './assets/Vector.svg'
 
 const App = () => {
   const [quote, setQuote] = useState('');
@@ -29,6 +30,9 @@ const App = () => {
   return (
     <div className="App">
       <div className="content">
+        <div>
+          <img src={Vector} alt="Vector illustration" />
+        </div>
         <div className='quote'>
           <p>{quote}</p>
           <p>- {author}</p>
