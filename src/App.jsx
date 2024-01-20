@@ -30,17 +30,18 @@ const App = () => {
   return (
     <div className="App">
       <div className="content">
-        <div>
-          <img src={Vector} alt="Vector illustration" />
-        </div>
         <div className='quote'>
+          <div>
+            <img src={Vector} alt="Vector illustration" />
+          </div>
           <p>{quote}</p>
+          <div className="divider"></div>
           <p>- {author}</p>
         </div>
         <div className="buttons">
           <div>
             <a href="https://twitter.com/GabrielRedCat">
-              <img src={XLogo} alt="X logo" width={30}/>
+              <img src={XLogo} alt="X logo" width={30} />
             </a>
           </div>
           <button onClick={handleNewQuote}>New Quote</button>
