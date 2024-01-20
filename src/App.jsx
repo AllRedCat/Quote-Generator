@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-// import '@fortawesome/fontawesome-free/css/all.css';
 import './App.css';
+import XLogo from './assets/square-x-twitter.svg'
 
 const App = () => {
   const [quote, setQuote] = useState('');
@@ -36,7 +36,7 @@ const App = () => {
         <div className="buttons">
           <div>
             <a>
-              <FontAwesomeIcon icon="fa-brands fa-square-x-twitter" style={{ color: "#364ba7", }} />
+              <img src={XLogo} alt="X logo" width={30}/>
             </a>
           </div>
           <button onClick={handleNewQuote}>New Quote</button>
