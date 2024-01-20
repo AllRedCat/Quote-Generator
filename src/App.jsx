@@ -32,7 +32,7 @@ const App = () => {
       <div className="content">
         <div className='quote'>
           <div>
-            <img src={Vector} alt="Vector illustration" />
+            <img src={Vector} alt="Vector illustration" width={100} />
           </div>
           <p>{quote}</p>
           <div className="divider"></div>

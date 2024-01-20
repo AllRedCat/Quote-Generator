@@ -1,3 +1,6 @@
+// Import font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
 // Colors variables
 $violet: #364BA7;
 $light-pink: #F583A7;
@@ -7,10 +10,15 @@ $light-pink: #F583A7;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App {
-  background-color: red;
+  // background-color: red;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
   width: 600px;
   // height: 400px;
   display: flex;
@@ -19,7 +27,7 @@ $light-pink: #F583A7;
 }
 
 .content {
-  background-color: greenyellow;
+  // background-color: greenyellow;
   margin: 10px 0;
   width: 500px;
   height: 380px;
@@ -30,8 +38,19 @@ $light-pink: #F583A7;
 }
 
 .quote {
-  background-color: violet;
+  // background-color: violet;
   width: 450px;
+  font-size: 22px;
+
+  img {
+    margin-bottom: -30px;
+  }
+}
+
+.divider {
+  background-color: black;
+  width: 100%;
+  height: 1px;
 }
 
 .buttons {
