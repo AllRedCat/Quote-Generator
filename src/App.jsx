@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css';
+import './App.scss';
 import XLogo from './assets/square-x-twitter.svg'
 
 const App = () => {
