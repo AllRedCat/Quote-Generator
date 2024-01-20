@@ -35,7 +35,7 @@ const App = () => {
         </div>
         <div className="buttons">
           <div>
-            <a>
+            <a href="https://twitter.com/GabrielRedCat">
               <img src={XLogo} alt="X logo" width={30}/>
             </a>
           </div>
